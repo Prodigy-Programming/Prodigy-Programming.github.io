@@ -1146,8 +1146,8 @@ input::-moz-focus-inner {
 }
 .header-logo a {
   display: block;
-  padding: 0;
-  outline: 0;
+  padding: 10px;
+  outline: 10px;
   border: none;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
