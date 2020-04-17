@@ -1136,7 +1136,7 @@ input::-moz-focus-inner {
   z-index: 501;
   display: inline-block;
   margin: 00;
-  padding: 00px;
+  padding: 00;
   position: absolute;
   left: 110px;
   top: 100%;
