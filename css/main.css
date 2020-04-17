@@ -1135,11 +1135,11 @@ input::-moz-focus-inner {
 .header-logo {
   z-index: 501;
   display: inline-block;
-  margin: 100px;
-  padding: 100px;
+  margin: 00;
+  padding: 00px;
   position: absolute;
   left: 110px;
-  top: 50%;
+  top: 5%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
