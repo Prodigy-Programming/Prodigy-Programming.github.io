@@ -1,11 +1,6 @@
-/* =================================================================== 
- *  Sec-Army | secarmy.github.io
- * =================================================================== */
-
 @import url("font-awesome/css/fontawesome-all.css");
 @import url("micons/micons.css");
 @import url("fonts.css");
-
 html {
     font-family: sans-serif;
     line-height: 1.15;
