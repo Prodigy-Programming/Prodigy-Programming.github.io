@@ -1139,7 +1139,7 @@ input::-moz-focus-inner {
   padding: 0;
   position: absolute;
   left: 110px;
-  top: 50%;
+  top: 100%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -1426,7 +1426,7 @@ input::-moz-focus-inner {
   }
   .header-logo img {
     width: 180px;
-    height: 350px;
+    height: 250px;
   }
 
   .header-menu-toggle {
