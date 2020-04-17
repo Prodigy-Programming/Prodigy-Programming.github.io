@@ -1139,7 +1139,7 @@ input::-moz-focus-inner {
   padding: 00;
   position: absolute;
   left: 110px;
-  top: 100%;
+  top: 100px;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
