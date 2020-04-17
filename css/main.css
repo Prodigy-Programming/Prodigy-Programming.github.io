@@ -1133,7 +1133,7 @@ input::-moz-focus-inner {
 }
 
 .header-logo {
-  z-index: 501;
+  z-index: 50;
   display: inline-block;
   margin: 00;
   padding: 00;
