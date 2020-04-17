@@ -1139,7 +1139,7 @@ input::-moz-focus-inner {
   padding: 00px;
   position: absolute;
   left: 110px;
-  top: 5%;
+  top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -1154,7 +1154,7 @@ input::-moz-focus-inner {
 }
 .header-logo img {
   width: 200px;
-  height: 300px;
+  height: 270px;
 }
 
 .header-nav {
@@ -1426,7 +1426,7 @@ input::-moz-focus-inner {
   }
   .header-logo img {
     width: 180px;
-    height: 350px;
+    height: 300px;
   }
 
   .header-menu-toggle {
@@ -1449,7 +1449,7 @@ input::-moz-focus-inner {
   }
   .header-logo img img {
     width: 141px;
-    height: 270px;
+    height: 200px;
   }
 
   .header-menu-toggle {
