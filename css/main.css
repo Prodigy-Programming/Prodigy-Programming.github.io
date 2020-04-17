@@ -1135,8 +1135,8 @@ input::-moz-focus-inner {
 .header-logo {
   z-index: 501;
   display: inline-block;
-  margin: 0;
-  padding: 0;
+  margin: 100px;
+  padding: 100px;
   position: absolute;
   left: 110px;
   top: 100%;
@@ -1426,7 +1426,7 @@ input::-moz-focus-inner {
   }
   .header-logo img {
     width: 180px;
-    height: 100px;
+    height: 350px;
   }
 
   .header-menu-toggle {
@@ -1449,7 +1449,7 @@ input::-moz-focus-inner {
   }
   .header-logo img img {
     width: 141px;
-    height: 27px;
+    height: 270px;
   }
 
   .header-menu-toggle {
