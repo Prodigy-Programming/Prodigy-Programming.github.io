@@ -1,11 +1,7 @@
-/* =================================================================== 
- *  Sec-Army | secarmy.github.io | Main JS
- * =================================================================== */
-
 (function($) {
 
     "use strict";
-    
+
     var cfg = {
         scrollDuration : 800,
         mailChimpURL   : '#' // mailchimp url
@@ -17,7 +13,7 @@
     doc.setAttribute('data-useragent', navigator.userAgent);
 
     var clPreloader = function() {
-        
+
         $("html").addClass('cl-preload');
 
         $WIN.on('load', function() {
@@ -25,16 +21,16 @@
             $("#loader").fadeOut("slow", function() {
 
                 $("#preloader").delay(300).fadeOut("slow");
-            }); 
+            });
 
             $("html").removeClass('cl-preload');
             $("html").addClass('cl-loaded');
-        
+
         });
     };
 
     var clMenuOnScrolldown = function() {
-        
+
         var menuTrigger = $('.header-menu-toggle');
 
         $WIN.on('scroll', function() {
@@ -92,7 +88,7 @@
                 $size = $thumbLink.data('size').split('x'),
                 $width  = $size[0],
                 $height = $size[1];
-        
+
             var item = {
                 src  : $href,
                 w    : $width,
@@ -123,7 +119,7 @@
     };
 
     var clStatCount = function() {
-        
+
         var statSection = $(".s-stats"),
             stats = $(".stats__count");
 
@@ -145,7 +141,7 @@
                         });
                     });
 
-                } 
+                }
 
                 this.destroy();
 
@@ -157,7 +153,7 @@
     };
 
     var clMasonryFolio = function () {
-        
+
         var containerBricks = $('.masonry');
 
         containerBricks.imagesLoaded(function () {
@@ -173,7 +169,7 @@
     };
 
     var clSlickSlider = function() {
-        
+
         $('.testimonials__slider').slick({
             arrows: false,
             dots: true,
@@ -195,11 +191,11 @@
     };
 
     var clSmoothScroll = function() {
-        
+
         $('.smoothscroll').on('click', function (e) {
             var target = this.hash,
             $target    = $(target);
-            
+
                 e.preventDefault();
                 e.stopPropagation();
 
@@ -218,19 +214,19 @@
     };
 
     var clPlaceholder = function() {
-        $('input, textarea, select').placeholder();  
+        $('input, textarea, select').placeholder();
     };
 
     var clAlertBoxes = function() {
 
         $('.alert-box').on('click', '.alert-box__close', function() {
             $(this).parent().fadeOut(500);
-        }); 
+        });
 
     };
 
     var clAOS = function() {
-        
+
         AOS.init( {
             offset: 200,
             duration: 600,
@@ -243,7 +239,7 @@
     };
 
     var clAjaxChimp = function() {
-        
+
         $('#mc-form').ajaxChimp({
             language: 'es',
             url: cfg.mailChimpURL
@@ -257,16 +253,16 @@
             3: '<i class="fas fa-exclamation-circle"></i> E-mail address is not valid.',
             4: '<i class="fas fa-exclamation-circle"></i> E-mail address is not valid.',
             5: '<i class="fas fa-exclamation-circle"></i> E-mail address is not valid.'
-        } 
+        }
 
     };
 
     var clBackToTop = function() {
-        
-        var pxShow  = 500, 
-        fadeInTime  = 400, 
-        fadeOutTime = 400, 
-        scrollSpeed = 300, 
+
+        var pxShow  = 500,
+        fadeInTime  = 400,
+        fadeOutTime = 400,
+        scrollSpeed = 300,
         goTopButton = $(".cl-go-top")
 
         $(window).on('scroll', function() {
@@ -279,7 +275,7 @@
     };
 
     (function clInit() {
-        
+
         clPreloader();
         clMenuOnScrolldown();
         clOffCanvas();
@@ -295,5 +291,5 @@
         clBackToTop();
 
     })();
-        
+
 })(jQuery);
