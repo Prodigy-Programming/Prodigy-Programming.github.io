@@ -1138,9 +1138,9 @@ input::-moz-focus-inner {
   margin: 0;
   padding: 0;
   position: absolute;
-  left: 110px;
+  left: 0px;
   top: 100%;
-  -webkit-transform: translateY(-50%);
+ -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
@@ -1153,8 +1153,8 @@ input::-moz-focus-inner {
   transition: all 0.3s ease-in-out;
 }
 .header-logo img {
-  width: 200px;
-  height: 200px;
+  width: 700px;
+  height: 500px;
 }
 
 .header-nav {
